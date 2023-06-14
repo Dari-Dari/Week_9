@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <div>
+        <p>Ваш депозит на начало расчётного периода составлял 30000 руб.</p>
+        <p>Согласно вашему тарифу, вам была присвоена ставка 18.5%</p>
+        <p>К концу расчётного периода прирост составил 150 руб., и на данный момент
+            ваш депозит составляет 30150 руб.</p>
+    </div>
+    <div>
+        <p>Какую сумму вы хотите внести на вклад? </p>
+        <label for="deposit">Введите сумму вклада:</label>
+        <input type="number" id="deposit">
+        <button onclick="calculate()">Рассчитать</button>
+        <p id="result"></p>
+    </div>
+
+    <script src="deposit.js"></script>
+</body>
+
+</html>
